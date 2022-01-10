@@ -1,6 +1,6 @@
 var express=require('express');
-var initializeApp = require('./node_modules/firebase/app') ;
-var getAnalytics= require('./node_modules/firebase/analytics')
+/*var initializeApp = require('./node_modules/firebase/app') ;
+var getAnalytics= require('./node_modules/firebase/analytics')*/
 /*import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";*/
 
@@ -16,7 +16,7 @@ server.get('/', (req, res) => {
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+/*const firebaseConfig = {
   apiKey: "AIzaSyAVfkti44lzk6HZhcbGHmAJsxhpeAGFrVo",
   authDomain: "hashweb-6f99f.firebaseapp.com",
   projectId: "hashweb-6f99f",
@@ -24,10 +24,10 @@ const firebaseConfig = {
   messagingSenderId: "254303976027",
   appId: "1:254303976027:web:eb300c8a43093297425d7e",
   measurementId: "G-BFEMN9QL4M"
-};
+};*/
 
 // Initialize Firebase
-const app = initializeApp.initializeApp(firebaseConfig);
+//const app = initializeApp.initializeApp(firebaseConfig);
 //const analytics = getAnalytics.getAnalytics(app);
 
 
